@@ -1,0 +1,6 @@
+Sends push notifications about new trending Github repos using Pushbullet. Stores info about the
+old trending repos in the home folder.
+
+Usage: schedule a cron job to run the following
+
+/yourhomefolder/go/bin/trending-push <pushbullet token> <pushbullet device iden>
